@@ -7,6 +7,7 @@ Console.WriteLine("Введите второе число : ");
 int number2 = int.Parse(Console.ReadLine());
 
 int ost = number1 % number2;
-if (ost > 0 )Console.WriteLine($" Остаток {ost}");
-    else  Console.WriteLine($" {number1}, {number2} кратно");  
+
+if (ost == 0 )Console.WriteLine($" {number1}, {number2} кратно");
+    else  Console.WriteLine($"Не кратно, остаток {ost}");  
  

@@ -2,7 +2,6 @@
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-
 double lenght(int xA, int yA, int zA, int xB, int yB, int zB) 
 {
     double distance = Math.Sqrt(Math.Pow(xB - xA, 2)+Math.Pow(yB - yA, 2)+Math.Pow(zB - yA, 2));
